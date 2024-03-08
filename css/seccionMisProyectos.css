@@ -1,0 +1,363 @@
+.mis-proyectos > div, .mis-proyectos-parte-2 > div{
+    display: flex;
+    margin-top: 5%;
+}
+
+.proyectos{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 30%;
+    height: 40%;
+}
+
+.proyectos::after{
+    content: "ATT";
+    grid-area: img;
+    width: 240px;
+    height: 270px;
+    background-color: rgba(187, 132, 14, 0.548);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    grid-area: img;
+    border: var(--color-letras-resaltadas) 1px solid;
+    border-radius: 30px;
+    box-shadow: var(--estilo-borde-letras) 0px 0px 30px 5px;
+    transition: .3s;
+}
+.img:hover{
+    transform: scale(1.1);
+    
+}
+
+.proyectos:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+/* SEGUNDO FIGURE */
+.mis-proyectos .proyectos-2{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 30%;
+    height: 40%;
+}
+
+.mis-proyectos .proyectos-2::after{
+    content: "Páginas Web";
+    grid-area: img;
+    width: 240px;
+    height: 270px;
+    background-color: rgba(187, 132, 14, 0.548);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.mis-proyectos .proyectos-2:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.mis-proyectos .proyectos-2 .img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    grid-area: img;
+    border: var(--color-letras-resaltadas) 1px solid;
+    border-radius: 30px;
+    box-shadow: var(--estilo-borde-letras) 0px 0px 30px 5px;
+    transition: .3s;
+}
+.mis-proyectos .proyectos-2 .img:hover{
+    transform: scale(1.1);
+    
+}
+
+/* TERCERO FIGURE */
+.mis-proyectos .proyectos-3{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 30%;
+    height: 40%;
+}
+
+.mis-proyectos .proyectos-3::after{
+    content: "Sitios Web";
+    grid-area: img;
+    width: 240px;
+    height: 270px;
+    background-color: rgba(187, 132, 14, 0.548);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.mis-proyectos .proyectos-3:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.mis-proyectos .proyectos-3 .img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    grid-area: img;
+    border: var(--color-letras-resaltadas) 1px solid;
+    border-radius: 30px;
+    box-shadow: var(--estilo-borde-letras) 0px 0px 30px 5px;
+    transition: .3s;
+}
+.mis-proyectos .proyectos-3 .img:hover{
+    transform: scale(1.1);
+    
+}
+
+/* CUARTO FIGURE */
+.mis-proyectos .proyectos-4{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 30%;
+    height: 40%;
+}
+
+.mis-proyectos .proyectos-4::after{
+    content: "Proyectos Git";
+    grid-area: img;
+    width: 240px;
+    height: 270px;
+    background-color: rgba(187, 132, 14, 0.548);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.mis-proyectos .proyectos-4:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.mis-proyectos .proyectos-4 .img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    grid-area: img;
+    border: var(--color-letras-resaltadas) 1px solid;
+    border-radius: 30px;
+    box-shadow: var(--estilo-borde-letras) 0px 0px 30px 5px;
+    transition: .3s;
+}
+.mis-proyectos .proyectos-4 .img:hover{
+    transform: scale(1.1);
+    
+}
+
+/* QUINTO FIGURE */
+.mis-proyectos-parte-2 .proyectos-5{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 30%;
+    height: 40%;
+}
+
+.mis-proyectos-parte-2 .proyectos-5::after{
+    content: "Landing Page";
+    grid-area: img;
+    width: 240px;
+    height: 270px;
+    background-color: rgba(187, 132, 14, 0.548);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.mis-proyectos-parte-2 .proyectos-5:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.mis-proyectos-parte-2 .proyectos-5 .img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    grid-area: img;
+    border: var(--color-letras-resaltadas) 1px solid;
+    border-radius: 30px;
+    box-shadow: var(--estilo-borde-letras) 0px 0px 30px 5px;
+    transition: .3s;
+}
+.mis-proyectos-parte-2 .proyectos-5 .img:hover{
+    transform: scale(1.1);
+    
+}
+
+/* SEXTO FIGURE */
+.mis-proyectos-parte-2 .proyectos-6{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 30%;
+    height: 40%;
+}
+
+.mis-proyectos-parte-2 .proyectos-6::after{
+    content: "Sistema de Ventas";
+    grid-area: img;
+    width: 240px;
+    height: 270px;
+    background-color: rgba(187, 132, 14, 0.548);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.mis-proyectos-parte-2 .proyectos-6:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.mis-proyectos-parte-2 .proyectos-6 .img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    grid-area: img;
+    border: var(--color-letras-resaltadas) 1px solid;
+    border-radius: 30px;
+    box-shadow: var(--estilo-borde-letras) 0px 0px 30px 5px;
+    transition: .3s;
+}
+.mis-proyectos-parte-2 .proyectos-6 .img:hover{
+    transform: scale(1.1);
+    
+}
+
+/* SEPTIMO FIGURE */
+.mis-proyectos-parte-2 .proyectos-7{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 30%;
+    height: 40%;
+}
+
+.mis-proyectos-parte-2 .proyectos-7::after{
+    content: "RED";
+    grid-area: img;
+    width: 240px;
+    height: 270px;
+    background-color: rgba(187, 132, 14, 0.548);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.mis-proyectos-parte-2 .proyectos-7:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.mis-proyectos-parte-2 .proyectos-7 .img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    grid-area: img;
+    border: var(--color-letras-resaltadas) 1px solid;
+    border-radius: 30px;
+    box-shadow: var(--estilo-borde-letras) 0px 0px 30px 5px;
+    transition: .3s;
+}
+.mis-proyectos .proyectos-7 .img:hover{
+    transform: scale(1.1);
+    
+}
+
+/* OCTAVO FIGURE */
+.mis-proyectos-parte-2 .proyectos-8{
+    display: grid;
+    grid-template: 1fr/1fr;
+    grid-template-areas: "img";
+    width: 30%;
+    height: 40%;
+}
+
+.mis-proyectos-parte-2 .proyectos-8::after{
+    content: "Navegador";
+    grid-area: img;
+    width: 240px;
+    height: 270px;
+    background-color: rgba(187, 132, 14, 0.548);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    clip-path: circle(0 at top right);
+    transition: clip-path .4s;
+}
+
+.mis-proyectos-parte-2 .proyectos-8:hover::after{
+    clip-path: circle(150% at top right);
+}
+
+.mis-proyectos-parte-2 .proyectos-8 .img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    grid-area: img;
+    border: var(--color-letras-resaltadas) 1px solid;
+    border-radius: 30px;
+    box-shadow: var(--estilo-borde-letras) 0px 0px 30px 5px;
+    transition: .3s;
+}
+.mis-proyectos-parte-2 .proyectos-8 .img:hover{
+    transform: scale(1.1);
+    
+}
