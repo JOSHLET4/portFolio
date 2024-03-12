@@ -1,6 +1,6 @@
 :root{
     --color-encabezado: #0388a63f;
-    --color-fondo-texto: #0388a679;
+    --color-fondo-texto: #0388a6b2;
     --color-degradado1: #01061B;
     --color-degradado2: #07034C;
     --color-borde-y-shadow: black;
@@ -16,11 +16,14 @@ html{
 body{
     font-family: sans-serif;
     margin: 0;
-    background-image: url(../img/cyberpunk-amoled-dark-vertical-hd-wallpaper-e74117b8c0eab45a5ac8b20bd9759e24.jpg);
+    padding: 0;
+}
+
+.primera-seccion{
+    height: 100vh;
+    background-image: url(../img/fondo1.gif);
     background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 100vw;
-    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* SECCION DE ENCABEZADO*/
@@ -48,7 +51,8 @@ a{
 }
 
 .imagen-menu{
-    height: 30px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 nav a{
@@ -75,11 +79,6 @@ nav a:hover{
     display: flex;
 }
 
-.imagen-user{
-    height: 300px;
-    margin-top: 40px;
-}
-
 .presentacion{
     color: var(--color-texto);
 }
@@ -88,13 +87,15 @@ nav a:hover{
     color: var(--color-texto);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--estilo-borde-letras);
-    text-align: center;
-    font-size: 38px;
-    box-sizing: border-box;
-    margin-top: 10%;
-    margin-right: 5%;
-    margin-left: 5%;
     background-color: var(--color-fondo-texto);
+    border-radius: 10px;
+    box-shadow: var(--color-borde-y-shadow) 0px 0px 20px 2px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 5vw;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 33%;
 }
 
 .saludo strong{
@@ -103,12 +104,14 @@ nav a:hover{
 }
 
 .mi-descripcion{
+    background-color: var(--color-fondo-texto);
+    text-align: justify;
+    font-size: 20px;
+    box-shadow: var(--color-borde-y-shadow) 0px 0px 20px 2px;
+    padding: 30px;
     margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
-    text-align: justify;
-    background-color: var(--color-fondo-texto);
-    padding: 30px;
 }
 
 @media (max-width:700px){
@@ -116,14 +119,16 @@ nav a:hover{
         flex-direction: column;
     }
 
-    .imagen-user{
-        height: 260px;
-        margin-top: 40px;
-    }
 }
 /*TERMINA LA SECCIÓN DE PRESENTACIÓN*/
 
-/*INICIA LA SECCIÓN DE BOTONES*/
+/*INICIA LA SECCIÓN DE BOTONES Y DE PROYECTOS*/
+.segunda-seccion{
+    background-color: var(--color-borde-y-shadow);
+    background-size: cover;
+    height: 100vh;
+}
+
 .botones{
     display: flex;
     justify-content: center;
@@ -155,4 +160,4 @@ button:hover{
         margin-right: 20%;
     }
 }
-/*TERMINA LA SECCIÓN DE BOTONTES*/
+/*TERMINA LA SECCIÓN DE BOTONTES Y LA SECCIÓN DE PROYECTOS CONTINUA EN EL ARCHIVO CSS SECCIONMISPROYECTOS*/
