@@ -7,6 +7,7 @@
     --color-texto: white;
     --estilo-borde-letras: orange;
     --color-letras-resaltadas: orange;
+    --fondo-para-seccion-2y4: #0F0214;
 }
 
 html{
@@ -106,8 +107,9 @@ nav a:hover{
 .mi-descripcion{
     background-color: var(--color-fondo-texto);
     text-align: justify;
-    font-size: 20px;
+    font-size: 3vh;
     box-shadow: var(--color-borde-y-shadow) 0px 0px 20px 2px;
+    border-radius: 10px;
     padding: 30px;
     margin-top: 5%;
     margin-right: 5%;
@@ -124,7 +126,7 @@ nav a:hover{
 
 /*INICIA LA SECCIÓN DE BOTONES Y DE PROYECTOS*/
 .segunda-seccion{
-    background-color: var(--color-borde-y-shadow);
+    background-color: var(--fondo-para-seccion-2y4);
     background-size: cover;
     height: 100vh;
 }
@@ -136,7 +138,7 @@ nav a:hover{
 
 .botones > button{
     background-color: var(--color-fondo-texto);
-    margin-top: 1%;
+    margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 25px;
@@ -161,3 +163,62 @@ button:hover{
     }
 }
 /*TERMINA LA SECCIÓN DE BOTONTES Y LA SECCIÓN DE PROYECTOS CONTINUA EN EL ARCHIVO CSS SECCIONMISPROYECTOS*/
+
+/* INICIA LA GALERIA SECCION 3*/
+.tercera-seccion{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-image: url(../img/fondo3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tercera-seccion img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .6;
+    transition: .5s ease;
+}
+
+.tercera-seccion img:hover{
+    cursor: zoom-in;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.habilidades h2{
+    font-size: 5vw;
+    margin-top: 200px;
+    color: var(--color-letras-resaltadas);
+    text-shadow: 0 0 10px var(--color-letras-resaltadas),0 0 10px var(--color-letras-resaltadas), 0 0 10px var(--color-letras-resaltadas);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.596);
+    text-align: center;
+}
+/* TERMINA LA GALERIA SECCION 3*/
+
+/* INICIA LA SECCION 4 */
+.cuarta-seccion{
+    height: 100vh;
+    background-color: #0F0214;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuarta-seccion p:nth-child(1){
+    font-size: 4vw;
+    color: var(--color-letras-resaltadas);
+}
+
+.cuarta-seccion p:nth-child(2){
+    text-align: center;
+    font-size: 2vw;
+    color: var(--color-letras-resaltadas);
+}
+/* TERMINA LA SECCION 4 */
+
+/*LA ÚLTIMA PARTE DE LA PAGINA SE ENCUENTRA EN EL ARCHIVO REDES.CSS */
