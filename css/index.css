@@ -186,6 +186,7 @@ button:hover{
     background-image: url(../img/fondo3.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
 }
 
 .tercera-seccion img{
