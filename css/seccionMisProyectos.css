@@ -1,4 +1,4 @@
-.contenedor-proy{
+.contenedor-proy-1, .contenedor-proy-2{
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
@@ -319,9 +319,108 @@
     
 }
 
-/* @media (max-width:700px){
-    .prueba{
-        flex-direction: column;
-        align-items: center;
+
+@media screen and (max-width: 500px) {
+    .contenedor-proy-1{
+        margin-top: 20%;
+    }
+
+    .contenedor-proy-2{
+        margin-top: 1;
+    }
+
+    .proyectos::after{
+        width: 70px;
+        height: 70px;
+        top: -71px;
+    }
+
+    .proyectos .img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .proyectos-2::after{
+        width: 70px;
+        height: 70px;
+        top: -71px;
+        font-size: 1rem;
+    }
+
+    .proyectos-2 .img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .proyectos-3::after{
+        width: 70px;
+        height: 70px;
+        top: -71px;
+        font-size: 1rem;
+    }
+
+    .proyectos-3 .img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .proyectos-4::after{
+        width: 70px;
+        height: 70px;
+        top: -71px;
+        font-size: 1rem;
+    }
+
+    .proyectos-4 .img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .proyectos-5::after{
+        width: 70px;
+        height: 70px;
+        top: -71px;
+        font-size: 1rem;
+    }
+
+    .proyectos-5 .img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .proyectos-6::after{
+        width: 70px;
+        height: 70px;
+        top: -71px;
+        font-size: 1rem;
+    }
+
+    .proyectos-6 .img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .proyectos-7::after{
+        width: 70px;
+        height: 70px;
+        top: -71px;
+        font-size: 1rem;
+    }
+
+    .proyectos-7 .img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .proyectos-8::after{
+        width: 70px;
+        height: 70px;
+        top: -71px;
+        font-size: 1rem;
+    }
+
+    .proyectos-8 .img{
+        width: 70px;
+        height: 70px;
+    }
 }
-} */

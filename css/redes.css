@@ -7,11 +7,24 @@ footer{
     justify-content: center;
 }
 
+.footer-contenedor {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
 .titulo{
     font-size: 3vw;
     color: var(--color-borde-y-shadow);
     text-shadow: 0 0 10px var(--color-letras-resaltadas),0 0 10px var(--color-letras-resaltadas), 0 0 10px var(--color-letras-resaltadas);
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.596);
+}
+
+.mis-redes {
+    display: flex;
+    justify-content: center;
 }
 
 .mis-redes ul{
@@ -22,6 +35,9 @@ footer{
     margin: 0;
     transform: translate(-50%, -50%);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .mis-redes ul li{
@@ -91,4 +107,8 @@ footer{
 
 .mis-redes ul li:nth-child(9) a:hover{
     background-color: #131418;
+}
+
+.copy {
+    color: white;
 }

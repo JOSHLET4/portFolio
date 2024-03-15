@@ -18,6 +18,7 @@ body{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color: var(--fondo-para-seccion-2y4);
 }
 
 .primera-seccion{
@@ -121,6 +122,17 @@ nav a:hover{
         flex-direction: column;
     }
 
+    .mi-descripcion{
+        font-size: 3vh;
+    }
+
+}
+
+@media (max-width:479px){
+    .mi-descripcion{
+        font-size: 2.5vh;
+    }
+
 }
 /*TERMINA LA SECCIÓN DE PRESENTACIÓN*/
 
@@ -129,6 +141,7 @@ nav a:hover{
     background-color: var(--fondo-para-seccion-2y4);
     background-size: cover;
     height: 100vh;
+    margin-top: 5%;
 }
 
 .botones{
@@ -210,7 +223,7 @@ button:hover{
 }
 
 .cuarta-seccion p:nth-child(1){
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: var(--color-letras-resaltadas);
 }
 
