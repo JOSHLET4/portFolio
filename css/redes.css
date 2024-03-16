@@ -114,3 +114,20 @@ footer{
 .copy {
     color: white;
 }
+
+@media (max-width:551px){
+    .mis-redes ul li a{
+        width: 13vw;
+        height: 13vw;
+    }
+
+    .mis-redes ul li .fa-brands{
+        font-size: 6vw;
+        line-height: 220%;
+    }
+
+    
+    .mis-redes ul li{
+        margin-top: 25px;
+}
+}
