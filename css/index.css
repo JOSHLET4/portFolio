@@ -118,6 +118,7 @@ nav a:hover{
     margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
+    margin-bottom: 10%;
 }
 
 @media (max-width:700px){
@@ -154,7 +155,6 @@ nav a:hover{
 
 .botones > button{
     background-color: var(--color-fondo-texto);
-    margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 25px;
@@ -207,14 +207,21 @@ button:hover{
     filter: contrast(120%);
 }
 
-.habilidades h2{
+.habilidades{
+    width: 15%;
+}
+
+
+.habilidades p{
     font-size: 5vw;
-    margin-top: 200px;
+    margin-top: 290px;
     color: var(--color-letras-resaltadas);
     text-shadow: 0 0 10px var(--color-letras-resaltadas),0 0 10px var(--color-letras-resaltadas), 0 0 10px var(--color-letras-resaltadas);
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.596);
     text-align: center;
+    -webkit-transform: rotate(-90deg);
 }
+
 /* TERMINA LA GALERIA SECCION 3*/
 
 /* INICIA LA SECCION 4 */
