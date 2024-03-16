@@ -38,12 +38,13 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 5%;
 }
 
 .mis-redes ul li{
     list-style: none;
     margin-left: 20px;
+    margin-top: 5px;
 
 }
 
