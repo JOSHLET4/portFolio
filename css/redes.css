@@ -115,7 +115,7 @@ footer{
     color: white;
 }
 
-@media (max-width:551px){
+@media screen and (max-width:551px) and (max-width:200px){
     .mis-redes ul li a{
         width: 13vw;
         height: 13vw;
