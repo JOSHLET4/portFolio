@@ -139,6 +139,13 @@ nav a:hover{
     }
 
 }
+
+@media (max-width:387px){
+    .mi-descripcion{
+        font-size: 2vh;
+    }
+
+}
 /*TERMINA LA SECCIÓN DE PRESENTACIÓN*/
 
 /*INICIA LA SECCIÓN DE BOTONES Y DE PROYECTOS*/
